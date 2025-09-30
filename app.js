@@ -19,8 +19,13 @@ function add(numbers) {
     }
 
     const arr_num = num_str.split(',');
-    let sum = 0;
 
+    const negative_num = arr_num.filter(n => n < 0);
+    if (negative_num.length > 0) {
+        throw new Error(`negative numbers not allowed: ${negative_num.join(",")}`);
+    }
+
+    let sum = 0;
     for (let i = 0; i < arr_num.length; i++) {
         sum += parseInt(arr_num[i].trim());
     }
