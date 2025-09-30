@@ -15,3 +15,7 @@ test('returns sum of two comma separated numbers', () => {
 test('returns sum of multiple comma separated numbers', () => {
   expect(add("1, 4, 6, 9")).toBe(20);
 });
+
+test('support newline as delimiter', () => {
+    expect(add("1\n2,3")).toBe(6);
+})
