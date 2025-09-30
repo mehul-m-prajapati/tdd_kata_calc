@@ -1,0 +1,28 @@
+{
+  "name": "tdd_kata_calc",
+  "version": "1.0.0",
+  "description": "String Calculator TDD Kata",
+  "keywords": [
+    "tdd",
+    "jest",
+    "javascript"
+  ],
+  "homepage": "https://github.com/mehul-m-prajapati/tdd_kata_calc#readme",
+  "bugs": {
+    "url": "https://github.com/mehul-m-prajapati/tdd_kata_calc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehul-m-prajapati/tdd_kata_calc.git"
+  },
+  "license": "ISC",
+  "author": "Mehul",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
