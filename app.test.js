@@ -1,6 +1,5 @@
 const add = require('./app');
 
 test('returns 0 for empty string', () => {
-    expect(add("").toBe(0));
+    expect(add("")).toBe(0);
 });
-
